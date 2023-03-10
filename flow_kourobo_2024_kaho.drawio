@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:10:01.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yYTO0WPzlJYwkGSSfc-W" version="21.0.4" type="github"><diagram name="ページ1" id="nvMRwxWIE1PwNyXJreb3">zZhbb9owFMc/jaXtgSr32I8xhE6aNnXtro8hcUmkgJExBfbpd+w45EZb1pWOF3T89/HtnPOLE5A7XuyuRbLKP/GMlcixsh1yJ8hxQuLArxL2lWBbHqmUuSgyozXCXfGb1Y5G3RQZW3ccJeelLFZdMeXLJUtlR0uE4Nuu2z0vu6uukjkbCHdpUg7VH0Um80rFTtjoH1gxz+uV7cCcb5HUzuYk6zzJ+LYluTFyx4JzWVmL3ZiVKnh1XKpx00d6DxsTbClPGTCaeZ9v8Jf9LBrlH73b7/ZkxEdmloek3JgDf4tuv6LYQ3SKIhvFPsJTREMUuwjbKIqNQsLGpzqd3Nchg2UhO9Cg27yQ7G6VpKpnCwUCWi4XJbRsMIcnqLfDhGS7lmROdM34gkmxBxfT6/omuqa+fMu0t02y7DoDeStR2GiJqY/5YeomhGCYKP5FRJ1BRIcBWmaRKk1opWWyXhdpNy6Cb5YZU4tYT0VJJmLO5BNbcSs/lnVKfBjLVqz8I6GqNcHKRBYPXTCOxc+scMML2PEhVZ5FrvxusvpJWPONSJkZ1y7lZ6cKQq87VRWcwVQ6pYejvzzL7iDLs839PROgjZATJAtV6nOp0weHDEplzqA70OIDPKq4UCxFHsIExQEiPqKWwYxiTRdFkat5Azd/UEXdKnl71AL/RNSCc6HmvRlqF4tQaL8aQmGfxjMj5A+zF4eIUEQ9Xf2RYgOqn05Q5GhjrG6eihBMteFoeMCwlDjADMUYRRhhrGaGu4vU99jBiAI1M4HhnlZcvZY2YLlqCTptKUStRaZ6P5Eern3gPQcYprayzcbs2qAXh+4h1f8N3eBybsnwwhHH3qshTvpPizMjHh5BHCMKoOh7DVgncU1J1CLJV9DAhdhhHaglQ8TfnYLt+4sjkJz6nno2AvFrEwjBEfufquvKcur2L9V5FVi4Fia7tvtk327dMFHA4eAt6l+ZvrBrO+wl33kh0b7T+9rpT/QIz5DFZN9yWymH9eMb7q9D+p+Wz+3L7/iDUe3gxIcLNJvP4sq9+XPBjf8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-10T05:55:26.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oKuLg3bf4lzEeiVpEODR" version="21.0.4" type="github">
+  <diagram name="ページ1" id="nvMRwxWIE1PwNyXJreb3">
+    <mxGraphModel dx="1728" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-1" value="UART信号の受信" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="-b4NP8QybA-hK4RV1D-o-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="580" as="sourcePoint" />
+            <mxPoint x="409.5" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-3" value="buffer -&amp;gt; &lt;br&gt;vector変数へ代入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="710" as="sourcePoint" />
+            <mxPoint x="409.5" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-5" value="直交形式から、&lt;br&gt;計算して各モーター速度を求める" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="-b4NP8QybA-hK4RV1D-o-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="840" as="sourcePoint" />
+            <mxPoint x="409.5" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-7" value="足回りを動かす&lt;br&gt;(モーター)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b4NP8QybA-hK4RV1D-o-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.02;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="-b4NP8QybA-hK4RV1D-o-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="920" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="920" />
+              <mxPoint x="520" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-1" value="UART 受信" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="110" as="sourcePoint" />
+            <mxPoint x="89.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-3" value="命令を変数に入れる。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="3Kb1UZFhWgD7F33Z69OY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="240" as="sourcePoint" />
+            <mxPoint x="89.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-5" value="命令に必要な関数を実行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-6" value="この関数で、モーターなどを回す。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=10;position=0.25;base=40;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="161.91" y="245.52" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3Kb1UZFhWgD7F33Z69OY-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.061;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3Kb1UZFhWgD7F33Z69OY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="400" />
+              <mxPoint x="360" y="400" />
+              <mxPoint x="360" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
